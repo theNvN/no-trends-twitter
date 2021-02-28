@@ -28,7 +28,7 @@ chrome.storage.sync.get(
 );
 
 function hideElement(el, hide) {
-  el.style.display = hide ? 'none' : 'initial';
+  el.style.display = hide ? 'none' : '';
 }
 
 console.log('Ran Content Script');
